@@ -1,11 +1,4 @@
-"""
 
- OMRChecker
-
- Author: Udayraj Deshmukh
- Github: https://github.com/Udayraj123
-
-"""
 
 import argparse
 import sys
@@ -16,7 +9,6 @@ from src.logger import logger
 
 
 def parse_args():
-    # construct the argument parse and parse the arguments
     argparser = argparse.ArgumentParser()
 
     argparser.add_argument(
